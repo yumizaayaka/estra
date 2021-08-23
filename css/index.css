@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+.first-view{
+    height: 300px;
+}
+.first-view-ttl {
+    font-size: x-large;
+    margin: 30px 0;
+}
+.top-content {
+    background-color: #87BAE9;
+    color: #fff;
+    height: 300px;
+}
+.top-content-ttl,
+.top-content-text {
+    text-align: center;
+    padding-top: 60px;
+}
+.top-content-ttl {
+    font-size: x-large;
+}
+
+.news {
+    height: 400px;
+    margin-top: 100px;
+}
+.news-content {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.news-site {
+    border-bottom: 1px solid rgb(92, 92, 92);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.service {
+    height: 1200px;
+    margin-top: 80px;
+}
+.service-content {
+    margin-top: 30px;
+}
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+}
+.service-content-first-text {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #cce4f1;
+    color: #6f6e6e;
+}
+.service-content-first-text p{
+    padding: 0 130px;
+    text-align: left;
+}
+.service-content-first-ttl {
+    color: #4fb0b1;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+.service-content-second-text {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #4fb0b1;
+    color: #fff;
+}
+.service-content-second-text p{
+    padding: 0 130px;
+    text-align: left;
+}
+.service-content-second-ttl {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+.service-link {
+    width: 15%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #cce4f1;
+    background-color: #cce4f1;
+}
+.service-link a{
+    color: #4fb0b1;
+    font-weight: bold;
+}
+
+.recruit {
+    height: 1000px;
+}
+.recruit-flex {
+    background-color: #cce4f1;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+.recruit-img{
+    margin-top: -90px;
+}
+.recruit-content{
+    padding-top: 60px;
+    padding-right: 50px;
+    text-align: center;
+}
+.recruit-content-ttl {
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.recruit-first-content{
+    background-color: #cce4f1;
+    opacity: 0.7;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+.recruit-second-content {
+    background-color: #4fb0b1;
+    opacity: 0.7;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+.recruit-content-text {
+    line-height: 200px;
+    font-size: 30px;
+}
