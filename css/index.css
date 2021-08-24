@@ -59,6 +59,7 @@
 }
 .service-content-first-ttl {
     color: #4fb0b1;
+    line-height: 1.5;
     margin-bottom: 50px;
     font-size: x-large;
 }
@@ -74,6 +75,7 @@
 }
 .service-content-second-ttl {
     color: #fff;
+    line-height: 1.5;
     padding-bottom: 50px;
     font-size: x-large;
 }
@@ -94,18 +96,23 @@
 
 .recruit {
     height: 1000px;
+    margin-bottom: 80px;
 }
 .recruit-flex {
-    background-color: #cce4f1;
-    display: flex;
+    z-index: 20;
+    position: relative;
     margin-top: 150px;
     margin-bottom: 200px;
-    justify-content: space-between;
-}
-.recruit-img{
-    margin-top: -90px;
 }
 .recruit-content{
+    z-index: -10;
+    width: 70%;
+    height: 130px;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+    z-index: 10;
+    background-color: #cce4f1;
     padding-top: 60px;
     padding-right: 50px;
     text-align: center;
