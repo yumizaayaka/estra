@@ -32,7 +32,7 @@
 }
 .about-flex {
     height: 150px;
-    margin: 100px 100px;
+    margin: 100px 80px;
     display: flex;
     flex-wrap: wrap;
 }
