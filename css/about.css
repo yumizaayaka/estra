@@ -10,7 +10,10 @@
     border: solid 4px #87bae4;
 }
 .second-view-text {
-    margin: 150px 0px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
+    margin: 150px 0;
 }
 .second-view-bottom-border {
     width: 55%;
