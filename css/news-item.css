@@ -1,0 +1,32 @@
+.news-item {
+    margin-bottom: 80px;
+}
+.news-content-top {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: #bbb;
+}
+.news-content-top-text {
+    padding: 3px 10px;
+    margin-left: 20px;
+    border: 1px solid #bbb;
+}
+.news-content-down-ttl {
+    font-size: 20px;
+    padding: 40px 0;
+}
+.news-content-down-text {
+    padding: 0 80px;
+    border-top: 3px solid #bbb;
+    border-bottom: 3px solid #bbb;
+}
+.news-content-down-text p {
+    padding: 60px 0;
+    line-height: 1.5;
+}
+.news-content-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
