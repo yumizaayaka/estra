@@ -1,0 +1,33 @@
+
+.environment {
+    text-align: center;
+}
+
+
+.environment-content {
+    margin: 40px 0;
+}
+.environment-content-ttl {
+    padding-bottom: 40px;
+}
+.recruit-group {
+    height: 300px;
+}
+.recruit-flex {
+    height: 150px;
+    margin: 150px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recruit-group-sec {
+    margin-right: 80px;
+    padding: 50px 30px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.recruit-group-sec:after{
+    border-right: none;
+}
+.recruit-group-sec-ttl {
+    font-size: x-large;
+}

@@ -1,0 +1,60 @@
+
+
+.interview-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9e9f1;
+    margin-bottom: 40px;
+    padding: 40px 20px;
+}
+.interview-img img{
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.inteview-content {
+    padding: 40px 40px;
+}
+.interview-class {
+    color: #fff;
+    height: 20px;
+    background-color: #61b3df;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.interview-name {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.interview-text {
+    margin-bottom: 10px;
+}
+.interview-more {
+    font-size: 15px;
+    text-align: right;
+    color: #61b3df;
+}
+
+.recruit-group {
+    height: 300px;
+}
+.recruit-flex {
+    height: 150px;
+    margin: 150px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recruit-group-sec {
+    margin-right: 80px;
+    padding: 50px 30px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.recruit-group-sec:after{
+    border-right: none;
+}
+.recruit-group-sec-ttl {
+    font-size: x-large;
+}
