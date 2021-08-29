@@ -30,3 +30,27 @@
     justify-content: space-between;
     padding-top: 40px;
 }
+
+
+@media screen and (max-width: 480px) {
+    .news-content {
+        padding: 0 40px;
+    }
+    .news-content-top {
+        font-size: 5px ;
+    }
+    .news-content-down-ttl {
+        font-size: 13px;
+    }
+    .news-content-down-text {
+        padding: 0 40px;
+    }
+    .news-content-down-text p {
+        font-size: 5px;
+    }
+    .news-content-item {
+        padding-top: 20px;
+        font-size: 5px;
+    }
+    
+}

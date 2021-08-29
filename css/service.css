@@ -135,3 +135,50 @@
     margin: 50px 0 0;
     font-size: x-large;
 }
+
+
+@media screen and (max-width: 480px) {
+    .service-type-first {
+        height: 40px;
+        font-size: 15px;
+    }
+    .service-type-second {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .coachtech {
+        margin-top: 50px;
+    }
+    .coachtech-ttl {
+        font-size: 15px;
+    }
+    .coachtech-text {
+        margin: 100px 0;
+        font-size: 8px;
+    }
+
+    .coachtech-content-ttl {
+        font-size: 15px;
+        padding: 120px 0px 50px ;
+    }
+    .coachtech-list-text {
+        font-size: 8px;
+    }
+    .coachtech2-ttl {
+        font-size: 15px;
+    }
+
+
+
+    .stageee-ttl {
+        font-size: 25px;
+    }
+    .stageee-text {
+        padding: 60px 0;
+        font-size: 8px;
+    }
+    .stageee p{
+        font-size: 20px;
+    }
+}

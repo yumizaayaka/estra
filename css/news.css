@@ -24,3 +24,22 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #bbb;
 }
+
+
+@media screen and (max-width: 480px) {
+    .category{
+        width: 20%;
+    }
+    .category-ttl {
+        font-size: 13px;
+    }
+    .category-sub-ttl {
+        font-size: 4px;
+    }
+    .news-group {
+        width: 80%;
+    }
+    .news-site {
+        font-size: 8px;
+    }
+}
