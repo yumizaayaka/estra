@@ -15,7 +15,6 @@
 }
 
 .company-content {
-
     margin: 80px 30%;
     line-height: 1.5;
 }
@@ -28,11 +27,6 @@
     padding-left: 40px;
     padding-bottom: 40px;
 }
-
-
-
-
-
 
 
 .about-group {
@@ -55,4 +49,44 @@
 }
 .about-group-sec:after{
     border-right: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .company-content {
+        margin: 80px 10%;
+        line-height: 1.5;
+    }
+    .company-table {
+        height: 400px;
+        font-size: 10px;
+        text-align: left;
+    }
+    .company-table td{
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-group {
+        height: 200px;
+    }
+    .about-flex {
+        height: 50px;
+        margin: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-group-sec {
+        width: 40px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .about-group-sec-ttl {
+        font-size: 6px;
+    }
+    .about-group-sec p{
+        font-size: 2px;
+    }
 }

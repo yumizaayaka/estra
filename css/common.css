@@ -183,6 +183,14 @@ p{
         font-size: 18px;
     }
 
+    
+    .first-view-ttl {
+        font-size: 35px;
+    }
+    .first-view-text {
+        font-size: 15px;
+    }
+
     .footer {
         height: 900px;
     }

@@ -62,3 +62,47 @@
 .about-group-sec:after{
     border-right: none;
 }
+
+
+@media screen and (max-width: 480px) {
+    .about-content {
+        height: 600PX;
+    }
+    .about-content-ttl {
+        font-size: 20px;
+    }
+    .about-content-group{
+        margin-left: 15%;
+    }
+    .about-content-sec {
+        margin-bottom: 100px;
+    }
+    .about-content-sec-ttl {
+        font-size: 15px;
+    }
+    .about-content-text {
+        font-size: 6px;
+    }
+    .about-group {
+        height: 200px;
+    }
+    .about-flex {
+        height: 50px;
+        margin: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-group-sec {
+        width: 40px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .about-group-sec-ttl {
+        font-size: 6px;
+    }
+    .about-group-sec p{
+        font-size: 2px;
+    }
+}

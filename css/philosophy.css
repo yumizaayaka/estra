@@ -51,3 +51,44 @@
 .about-group-sec:after{
     border-right: none;
 }
+
+
+@media screen and (max-width: 480px) {
+    .philosophy-sub-ttl {
+        font-size: 20px;
+    }
+    .philosophy-text {
+        font-size: 12px;
+        margin-left: 15%;
+    }
+
+    .philosophy-content-ttl {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    .philosophy-content-text {
+        font-size: 10px;
+    }
+    .about-group {
+        height: 200px;
+    }
+    .about-flex {
+        height: 50px;
+        margin: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-group-sec {
+        width: 40px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .about-group-sec-ttl {
+        font-size: 6px;
+    }
+    .about-group-sec p{
+        font-size: 2px;
+    }
+}
