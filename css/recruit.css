@@ -22,7 +22,7 @@
     height: 65px;
     width: 40%;
     padding: 20px 0;
-    background-color: #4fafb1af;
+    background-color: #8ac6d1;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
@@ -31,7 +31,7 @@
     height: 65px;
     width: 40%;
     padding: 20px 0;
-    background-color: #cce4f1;
+    background-color: #bbded6;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
@@ -43,7 +43,7 @@
 
 .recruit-content-first {
     height: 1500px;
-    background-color: #4fafb1af;
+    background-color: #8ac6d1;
     text-align: center;
     color: #fff;
 }
@@ -77,20 +77,20 @@
     padding:  20px 0 20px 10px;
 }
 .designer {
-    border-bottom: 3px solid #4fafb1af;
+    border-bottom: 3px solid #8ac6d1;
 }
 .engineer {
     padding-top: 50px;
 }
 
 .recruit-content-second {
-    background-color: #cce4f1;
+    background-color: #bbded6;
     color: #fff;
     height: 1500px;
     text-align: center;
 }
 .director {
-    border-bottom: 3px solid #cce4f1
+    border-bottom: 3px solid #bbded6;
 }
 
 .recruit-group {
@@ -113,4 +113,76 @@
 }
 .recruit-group-sec-ttl {
     font-size: x-large;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .second-view {
+        height: 350px;
+    }
+    .second-view-text {
+        font-size: 8px;
+    }
+
+    .recruit-type {
+        width: 300px;
+        height: 100px;
+        margin: 100px 80px;
+    }
+    .recruit-type-first {
+        height: 30px;
+        width: 48%;
+        padding: 20px 0;
+        font-size: 13px;
+    }
+    .recruit-type-second {
+        height: 30px;
+        width: 48%;
+        padding: 20px 0;
+        font-size: 13px;
+    }
+
+    .recruit-content-first {
+        height: 1600px;
+    }
+    .recruit-content-ttl {
+        font-size: 45px;
+    }
+    .recruit-content-sub-ttl {
+        font-size: 18px;
+    }
+    .recruit-content-text {
+        margin: 0 80px;
+        font-size: 8px;
+    }
+    .recuit-table td {
+        padding:  20px 0 20px 10px;
+        font-size: 6px;
+    }
+
+
+    .recruit-group {
+        height: 150px;
+    }
+    .recruit-flex {
+        height: 50px;
+        margin: 80px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recruit-group-sec {
+        width: 80px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .recruit-group-sec-ttl {
+        font-size: 13px;
+    }
+    .recruit-group-sec p{
+        font-size: 6px;
+    }
 }

@@ -3,7 +3,7 @@
 .interview-sec {
     display: flex;
     justify-content: space-between;
-    background-color: #d9e9f1;
+    background-color: #8ac6d152;
     margin-bottom: 40px;
     padding: 40px 20px;
 }
@@ -18,7 +18,7 @@
 .interview-class {
     color: #fff;
     height: 20px;
-    background-color: #61b3df;
+    background-color: #8ac6d1;
     border-radius: 6px;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -32,9 +32,11 @@
     margin-bottom: 10px;
 }
 .interview-more {
-    font-size: 15px;
     text-align: right;
-    color: #61b3df;
+}
+.interview-more a{
+    font-size: 15px;
+    color: #8ac6d1;
 }
 
 .recruit-group {
@@ -57,4 +59,60 @@
 }
 .recruit-group-sec-ttl {
     font-size: x-large;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .interview-img {
+        width: 200px;
+        height: auto;
+    }
+    .inteview-content {
+        width: 120px;
+        padding: 10px 30px;
+    }
+    .interview-class {
+        height: 15px;
+        padding: 3px 8px;
+        margin-bottom: 10px;
+        font-size: 8px;
+    }
+    .interview-name {
+        font-size: 21px;
+    }
+    .interview-text {
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+    .interview-more {
+        font-size: 8px;
+    }
+    .interview-more a{
+        font-size: 5px;
+    }
+
+
+    .recruit-group {
+        height: 150px;
+    }
+    .recruit-flex {
+        height: 50px;
+        margin: 80px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recruit-group-sec {
+        width: 80px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .recruit-group-sec-ttl {
+        font-size: 13px;
+    }
+    .recruit-group-sec p{
+        font-size: 6px;
+    }
 }

@@ -69,9 +69,9 @@ p{
     text-align: center;
 }
 .header-nav-item-contact{
-    border: 1px solid #87BAE9;
+    border: 1px solid #8ac6d1;
     border-radius: 30px;
-    background-color: #87BAE9;
+    background-color: #8ac6d1;
     padding: 10px 30px;
 }
 .header-nav-item-contact a{
@@ -90,7 +90,7 @@ p{
 .footer {
     height: 600px;
     color: #fff;
-    background-color: #87BAE9;
+    background-color: #8ac6d1;
 }
 .footer-top {
     padding-top: 40px;
