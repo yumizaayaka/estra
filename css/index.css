@@ -37,7 +37,7 @@
 }
 
 .service {
-    height: 1200px;
+    height: 1400px;
     margin-top: 80px;
 }
 .service-content {
@@ -46,6 +46,9 @@
 .flex-item {
     display: flex;
     justify-content: space-between;
+}
+.service-content-item {
+    width: 100%;
 }
 .service-content-first-text {
     text-align: center;
@@ -80,10 +83,10 @@
     font-size: x-large;
 }
 .service-link {
-    width: 15%;
-    height: 30px;
+    width: 300px;
+    height: 50px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 10px 30px;
     text-align: center;
     border: 1px solid #8ac6d1;
@@ -95,52 +98,50 @@
 }
 
 .recruit {
-    height: 1000px;
-    margin: 80px 0;
+    margin: 50px 0;
 }
 .recruit-flex {
-    z-index: 20;
+    height: 500px;
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 200px;
 }
-.recruit-content{
-    z-index: -10;
-    width: 70%;
-    height: 130px;
+.recruit-img {
+    width: 100%;
     position: absolute;
-    top: 150px;
-    left: 35%;
-    z-index: 10;
+    top: 0;
+    left: 0px;
+}
+.recruit-content{
+    width: 70%;
+    height: 300px;
+    float: right;
+    margin-top: 180px;
+    padding: 40px 0;
     background-color: #8ac6d1;
-    padding-top: 60px;
-    padding-right: 50px;
     text-align: center;
 }
 .recruit-content-ttl {
-    font-size: x-large;
-    margin-bottom: 50px;
-}
-.recruit-first-content{
-    background-color: #8ac6d1;
-    opacity: 0.7;
-    width: 50%;
-    height: 200px;
+    font-size: 20px;
+    padding-bottom: 50px;
     text-align: center;
 }
-.recruit-second-content {
+
+.recruit-group {
+    width: 50%;
+    height: 150px;
+    padding-top: 50px;
+    text-align: center;
     background-color: #bbded6;
-    opacity: 0.7;
-    width: 50%;
-    height: 200px;
-    text-align: center;
 }
-.recruit-content-text {
-    line-height: 200px;
+.blue {
+    background-color: #8ac6d1;
+}
+.recruit-group-text {
     font-size: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .top-content-text {
         font-size: 10px;
     }
@@ -152,19 +153,20 @@
         border-bottom: 1px solid rgb(92, 92, 92);
         margin-bottom: 50px;
         padding-bottom: 10px;
-        font-size: 8px;
+        font-size: 6px;
     }
-    
+    .service-content-item {
+        width: 100%;
+    }
     .service {
-        height: 1500px;
+        height: 1300px;
     }
     .flex-item {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .flex-item img {
-        width: 480px;
-        height: auto;
-    }
+    
+    
     .service-content-first-text {
         padding: 60px 0;
     }
@@ -186,22 +188,28 @@
         font-size: 15px;
     }
     .service-link {
-        width: 15%;
-        height: 30px;
+        width: 30%;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 50px;
         padding: 10px 30px;
     }
     .service-link a{
         font-size: 10px;
     }
     
+
     .recruit {
-        height: 800px;
+        height: 900px;
     }
     .recruit-flex {
         margin-top: 80px;
         margin-bottom: 100px;
+    }
+    .recruit-img img{
+        width: 100%;
+    }
+    .recruit-content {
+        width: 100%;
     }
     .recruit-content-ttl {
         font-size: 13px;
@@ -213,5 +221,8 @@
     .recruit .flex-item{
         display: flex;
         justify-content: space-between;
+    }
+    .recruit-group-text {
+        font-size: 20px;
     }
 }
