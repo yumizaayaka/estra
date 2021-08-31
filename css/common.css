@@ -143,9 +143,10 @@ p{
         cursor: pointer;
         position: relative;
         z-index: 10;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .menu-line-top,
+    .menu-line-center,
     .menu-line-bottom {
         display: inline-block;
         width: 100%;
@@ -155,13 +156,19 @@ p{
         transition: 0.5s;
     }
     .menu-line-top {
-        top: -8px;
+        top: -10px;
+    }
+    .menu-line-center{
+        top: -5px;
     }
     .menu.open span:nth-of-type(1){
         top: 14px;
         transform: rotate(45deg);
     }
     .menu.open span:nth-of-type(2){
+        opacity: 0;
+    }
+    .menu.open span:nth-of-type(3){
         top: 14px;
         transform: rotate(-45deg);
     }
@@ -184,7 +191,9 @@ p{
         color: aqua;
         font-size: 18px;
     }
-
+    .in{
+        transform: translateX(100%);
+      }
     
     .first-view-ttl {
         font-size: 35px;

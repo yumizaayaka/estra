@@ -196,7 +196,9 @@
     .service-link a{
         font-size: 10px;
     }
-    
+    .order{
+        order: -1;
+    }
 
     .recruit {
         height: 900px;
