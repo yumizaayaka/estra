@@ -17,11 +17,11 @@
     padding: 40px 0;
 }
 .news-content-down-text {
-    padding: 0 80px;
+    padding: 40px 80px;
     border-top: 3px solid #bbb;
     border-bottom: 3px solid #bbb;
 }
-.news-content-down-text p {
+.news-content-down-text a {
     padding: 60px 0;
     line-height: 1.5;
 }
@@ -43,7 +43,7 @@
         font-size: 13px;
     }
     .news-content-down-text {
-        padding: 0 40px;
+        padding: 40px 40px;
     }
     .news-content-down-text p {
         font-size: 5px;

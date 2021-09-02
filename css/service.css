@@ -5,23 +5,17 @@
     display: flex;
     justify-content: space-between;
 }
-.service-type-first {
-    height: 65px;
-    width: 50%;
-    padding: 20px 0;
-    background-color: #8ac6d1;
-    text-align: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-.service-type-second {
-    height: 65px;
+.service-type-content {
+    height: 100px;
     width: 50%;
     padding: 20px 0;
     background-color: #bbded6;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
+}
+.blue{
+    background-color: #8ac6d1;
 }
 
 .coachtech {
@@ -60,7 +54,7 @@
     margin-bottom: 60px;
 }
 .coachtech-list-text {
-    width: 30%;
+    width: 40%;
     letter-spacing: 0.25em;
     font-size: large;
     border-bottom: 3px solid #8ac6d1;
@@ -138,13 +132,8 @@
 
 
 @media screen and (max-width: 768px) {
-    .service-type-first {
-        height: 40px;
-        font-size: 15px;
-    }
-    .service-type-second {
-        height: 40px;
-        font-size: 15px;
+    .service-type-content {
+        font-size: 18px;
     }
 
     .coachtech {
