@@ -2,7 +2,7 @@
 
 .second-view {
     height: 650px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-image: url(../img/4786984_s.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@
 }
 .recruit-type {
     height: 150px;
-    margin: 100px 210px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -129,16 +129,14 @@
 
 @media screen and (max-width: 768px) {
     .second-view {
-        height: 350px;
+        height: 200px;
     }
     .second-view-text {
         font-size: 8px;
     }
 
     .recruit-type {
-        width: 300px;
-        height: 100px;
-        margin: 100px 80px;
+        height: 70px;
     }
     .recruit-type-first {
         height: 30px;

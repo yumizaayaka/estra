@@ -86,14 +86,14 @@
         font-size: 6px;
     }
     .about-group {
-        height: 200px;
+        height: 150px;
     }
     .about-flex {
         height: 80px;
+        margin: 20px 20px;
     }
     .about-group-sec {
-        width: 20%;
-        padding: 20px 20px;
+        padding: 20px 10px;
         text-align: center;
         border-right: 1px solid #000;
     }

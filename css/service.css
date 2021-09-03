@@ -66,7 +66,7 @@
     margin: 0 10%;
 }
 .coachtech2 {
-    height: 1000px;
+    height: 1400px;
     margin-top: 100px;
 }
 .coachtech2-ttl {
@@ -75,31 +75,37 @@
     font-size: xx-large;
 }
 .coachtech2-content {
-    position: relative;
     width: 100%;
     margin-top: 80px;
-    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 .coachtech2-img {
-    width: 30%;
+    width: 40%;
 }
 .coachtech2-img img{
-    width: 100%;
+    width: 100%
 }
 .coachtech2-group {
-    width: 70%;
-    background-color: #8ac6d1e0;
-    position: absolute;
-    top: 80px;
-    color: #fff;
+    width: 60%;
 }
 .content-group-count {
-    margin-top: -10px;
-    font-size: x-large;
+    width: 30%;
+    font-size: 60px;
+    color: #fff;
+    text-shadow:
+        4px 0 0 #8ac6d1,
+        0 1px 0 #8ac6d1,
+        -1px 0 0 #8ac6d1,
+        0 -1px 0 #8ac6d1;
+    padding-left: 10px;
+    border-bottom: 3px solid #8ac6d1;
 }
 .content-group-text {
-    padding-top: 18px;
+    padding-top: 50px;
     text-align: center;
+    font-size: 20px;
 }
 
 .stageee {
@@ -154,8 +160,24 @@
     .coachtech-list-text {
         font-size: 8px;
     }
+    .coachtech2 {
+        height: 800px;
+    }
     .coachtech2-ttl {
         font-size: 15px;
+    }
+    .coachtech2-img {
+        width: 55%;
+    }
+    .coachtech2-group {
+        width: 45%;
+    }
+    .content-group-count {
+        width: 20%;
+        font-size: 30px;
+    }
+    .content-group-text {
+        font-size: 10px;
     }
 
 
