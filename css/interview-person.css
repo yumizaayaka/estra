@@ -3,7 +3,7 @@
 
 .interview-person {
     height: 900px;
-    background-color: #8ac6d152;
+    background-color: #f1b56786;
 }
 .interview-person-img {
     padding-top: 40px;
@@ -36,12 +36,12 @@
     margin-top: 40px;
 }
 .interview-person-border-top {
-    border: 1px solid #8ac6d1;
+    border: 1px solid #c7842d;
     width: 55%;
     margin-left: 44%;
 }
 .interview-person-border-bottom {
-    border: 1px solid #8ac6d1;
+    border: 1px solid #c7842d;
     width: 55%;
     margin-right: 44%;
 }
@@ -57,6 +57,11 @@
 .otherperson-ttl {
     font-size: 40px;
     padding: 60px  10px ;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
 }
 .otherperson-group {
     display: flex;

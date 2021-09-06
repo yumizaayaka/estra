@@ -3,7 +3,7 @@
 .interview-sec {
     display: flex;
     justify-content: space-between;
-    background-color: #8ac6d152;
+    background-color: #f1b56786;
     margin-bottom: 40px;
     padding: 40px 20px;
 }
@@ -17,8 +17,8 @@
 }
 .interview-class {
     color: #fff;
-    height: 20px;
-    background-color: #8ac6d1;
+    height: 30px;
+    background-color: #f1b667;
     border-radius: 6px;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -36,7 +36,7 @@
 }
 .interview-more a{
     font-size: 15px;
-    color: #8ac6d1;
+    color: #c7842d;
 }
 
 .recruit-group {

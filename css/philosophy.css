@@ -9,6 +9,11 @@
     padding-bottom: 30px;
     font-size: 60px;
     text-align: left;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
 }
 .philosophy-sub-ttl {
     font-size: 30px;

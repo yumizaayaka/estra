@@ -1,16 +1,23 @@
 @charset "utf-8";
 
-.first-view{
-    height: 300px;
+.home-first-view{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Commit\ to\ the\ growth\ for\ everyone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.first-view-ttl {
-    font-size: x-large;
+.home-first-view-text {
+    position: absolute;
+    top: 200px;
+}
+.home-first-view-ttl {
+    font-size: 40px;
     margin: 30px 0;
 }
 .top-content {
-    background-color: #8ac6d1;
-    color: #fff;
     height: 300px;
+    background-color: #f1b56759;
 }
 .top-content-ttl,
 .top-content-text {
@@ -18,12 +25,19 @@
     padding-top: 60px;
 }
 .top-content-ttl {
-    font-size: x-large;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
 }
 
 .news {
     height: 400px;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding-top: 30px;
 }
 .news-content {
     width: 50%;
@@ -36,52 +50,47 @@
     padding-bottom: 10px;
 }
 
+
+
 .service {
-    height: 1400px;
-    margin-top: 80px;
+    height: 1200px;
+    margin-top: 100px;
+    background-color: #f1b56759;
 }
 .service-content {
     margin-top: 30px;
 }
-.flex-item {
+.service-flex-item {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .service-content-item {
-    width: 100%;
+    width: 50%;
 }
-.service-content-first-text {
-    text-align: center;
-    padding-top: 100px;
-    background-color: #bbded6;
-    color: #fff;
-}
+
 .service-content-first-text p{
     padding: 0 130px;
     text-align: left;
 }
-.service-content-first-ttl {
-    color: #fff;
+.service-content-ttl {
     line-height: 1.5;
     margin-bottom: 50px;
-    font-size: x-large;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #c7842d;
 }
-.service-content-second-text {
-    text-align: center;
+.service-content-text {
+    text-align: left;
     padding-top: 100px;
-    background-color: #8ac6d1;
-    color: #fff;
+    margin: 0 90px;
+    color: #c7842d;
 }
 .service-content-second-text p{
     padding: 0 130px;
     text-align: left;
 }
-.service-content-second-ttl {
-    color: #fff;
-    line-height: 1.5;
-    padding-bottom: 50px;
-    font-size: x-large;
-}
+
 .service-link {
     width: 300px;
     height: 50px;
@@ -89,8 +98,9 @@
     margin-top: 60px;
     padding: 10px 30px;
     text-align: center;
-    border: 1px solid #8ac6d1;
-    background-color: #8ac6d1;
+    border: 1px solid #f1b667;
+    background-color: #f1b667;
+    border-radius: 10px;
 }
 .service-link a{
     color: #fff;
@@ -98,7 +108,7 @@
 }
 
 .recruit {
-    margin: 50px 0;
+    margin-top: 50px;
 }
 .recruit-flex {
     height: 500px;
@@ -120,7 +130,7 @@
     left: 280px;
     float: right;
     padding: 40px 0;
-    background-color: #8ac6d1;
+    background-color: #f1b667;
     opacity: 0.8;
     text-align: center;
 }
@@ -130,18 +140,35 @@
     text-align: center;
 }
 
+.recruit-information {
+    height: 250px;
+    background-color: #f1b56759;
+}
+.flex-item{
+    display: flex;
+}
+.recruit-text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
 .recruit-group {
     width: 50%;
-    height: 150px;
-    padding-top: 50px;
-    text-align: center;
-    background-color: #bbded6;
+    padding-top: 80px;
+    text-align: right;
+    margin-right: 50px;
 }
-.blue {
-    background-color: #8ac6d1;
+.left {
+    text-align: left;
 }
 .recruit-group-text {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #f1b667;
+    background-color: #f1b667;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 50px;
 }
 
 @media screen and (max-width: 768px) {

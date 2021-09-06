@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Klee One', cursive;
+
 }
 a {
     text-decoration: none;
@@ -23,14 +25,20 @@ p{
     margin: 0 auto;
 }
 .site-ttl {
-    font-size:x-large;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
 }
 
 .first-view {
     height: 300px;
     text-align: center;
+    padding-top: 100px;
 }
 .first-view-ttl {
     font-size: xxx-large;
@@ -50,7 +58,9 @@ p{
     justify-content: space-between;
     height: 100px;
     padding: 0 40px;
-    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 .header-ttl {
     margin-top: 25px;
@@ -72,13 +82,13 @@ p{
     text-align: center;
 }
 .header-nav-item-contact{
-    border: 1px solid #8ac6d1;
+    border: 1px solid #fff;
     border-radius: 30px;
-    background-color: #8ac6d1;
+    background-color: #fff;
     padding: 10px 30px;
 }
 .header-nav-item-contact a{
-    color: #fff;
+    color: #F2B705;
 }
 .menu {
     display: none;
@@ -93,7 +103,7 @@ p{
 .footer {
     height: 600px;
     color: #fff;
-    background-color: #8ac6d1;
+    background-color: #f1b667;
 }
 .footer-top {
     padding-top: 40px;
